@@ -3,7 +3,6 @@ import os
 import numpy as np
 from PIL import Image
 
-
 ## trans dota format to format YOLO(darknet) required
 def dota2darknet(imgpath, txtpath, dstpath, extractclassname):
     """
